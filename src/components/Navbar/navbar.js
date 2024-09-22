@@ -1,29 +1,22 @@
-import React from "react";
+import React from 'react';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
-const Navbar = () => {
+const MyNavbar = () => {
 return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-    <div className="container">
-        <a className="navbar-brand" href="#home">My Portfolio</a>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-            <a className="nav-link" href="#about">About</a>
-            </li>
-            <li className="nav-item">
-            <a className="nav-link" href="#projects">Projects</a>
-            </li>
-            <li className="nav-item">
-            <a className="nav-link" href="#contact">Contact</a>
-            </li>
-        </ul>
-        </div>
-    </div>
-    </nav>
+    <Navbar bg="light" expand="lg">
+        <Container>
+            <Navbar.Brand href="#home">My Portfolio</Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="me-auto">
+                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="#projects">Projects</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Container>
+    </Navbar>
 );
 };
 
-export default Navbar;
+export default MyNavbar;

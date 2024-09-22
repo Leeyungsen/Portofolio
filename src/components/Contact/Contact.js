@@ -16,7 +16,7 @@ return (
                 </a>
             </li>
             <li className="mb-3">
-                <a href="https://www.linkedin.com/feed/" target="_blank" rel="noopener noreferrer" className="text-dark">
+                <a href="https://www.linkedin.com/in/frederick-maxwellee-4b79922b0/" target="_blank" rel="noopener noreferrer" className="text-dark">
                 <FaLinkedin size={30} /> linkedin: Frederick Maxwellee
                 </a>
             </li>

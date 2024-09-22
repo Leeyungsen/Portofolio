@@ -9,37 +9,37 @@ const projects = [
     {
         Image: ReactPicture,
         name: "MoneyRecord",
-        description: "A project using React.js and Bootstrap.",
+        description: "MoneyRecord is a mobile appliacation designed to help you effortlessly track and manage your personal finances. It’s a personal project I developed using React Native to keep a detailed record of my own financial transactions.",
         githubLink: "https://github.com/Leeyungsen/MoneyRecord.git",
     },
     {
         Image: ReactPicture,
         name: "Finder",
-        description: "A project using Node.js and Express.",
+        description: "Finder is a software engineering project that uses React js as the framework. it is a web based app that specialize in searching accommodation for uni students and office workers.",
         githubLink: "https://github.com/sjsh23/Finder.git",
     },
     {
         Image: NextPicture,
         name: "Galaxy Cinema",
-        description: "A project using Python and Flask.",
+        description: "Galaxy Cinema is a web based application that specialize in ordering movie tickets. It is an Binus's IT Division advanced bootcamp group project and uses Next js framework.",
         githubLink: "https://github.com/dhirojap/cinema.git",
     },
     {
         Image: ASP,
         name: "Warehouse Backend",
-        description: "A project using Python and Flask.",
+        description: "This is a backend for Warehouse i developed this using ASP.NET.",
         githubLink: "https://github.com/Leeyungsen/Warehouse_backend.git",
     },
     {
         Image: BasicPicture,
         name: "Warehouse",
-        description: "A project using Python and Flask.",
+        description: "Warehouse is a web base application to check stock of goods. It is an Binus's IT Division basic bootcamp project and ueses HTML, CSS, JS.",
         githubLink: "https://github.com/Leeyungsen/Warehouse.git",
     },
     {
         Image: AndroidPicture,
         name: "Mobile Calculator",
-        description: "A project using Python and Flask.",
+        description: "Mobile Calculator is a mobile calculator application, and this is my first mobile application. It’s a personal project I developed using android studio.",
         githubLink: "https://github.com/Leeyungsen/Calculator_java.git",
     },
 ];
